@@ -219,9 +219,9 @@ function esVocal(letra){
   }                                                                            
      if(letra=='a' || letra=='e' || letra=='i'|| letra=='o'|| letra=='u'
     || letra=='A' || letra=='E' || letra=='I' ||  letra=='O'|| letra=='U'){
-    return console.log('Es vocal');
+    return 'Es vocal';
   }else{
-    return console.log('Dato incorrecto');
+    return 'Dato incorrecto';
   }
  
 
