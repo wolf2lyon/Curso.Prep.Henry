@@ -176,7 +176,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola ' + nombre; 
+  return 'Hola ' + nombre +'!'; 
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -219,9 +219,9 @@ function esVocal(letra){
   }                                                                            
      if(letra=='a' || letra=='e' || letra=='i'|| letra=='o'|| letra=='u'
     || letra=='A' || letra=='E' || letra=='I' ||  letra=='O'|| letra=='U'){
-    return console.log('Es una vocal');
+    return console.log('Es vocal');
   }else{
-    return console.log('No es una vocal');
+    return console.log('Dato incorrecto');
   }
  
 
